@@ -17,6 +17,21 @@
             font-size: 22px;
         }
     }
+    .consultation {
+        .title {
+            font-size: 28px;
+            text-align: center;
+        }
+        &__descr {
+            font-size: 18px;
+            margin-top: 60px;
+            text-align: center;
+        }
+        
+    }
+    .feed-form {
+        margin: 36px auto 0;
+    }
 }
 @media (max-width: 767px) {
     .btn {
@@ -25,6 +40,10 @@
         &_main {
             width: 300px;
             font-size: 16px;
+        }
+        &_submit {
+            width: 100%;
+
         }
     }
     .header {
@@ -89,9 +108,14 @@
             width: 290px;
         }
     }
-    .advantages {
-        &__title {
-            font-size: 22px;
+    .title {
+        font-size: 22px;
+    }
+    .consultation {
+        min-height: 600px;
+        padding: 50px 0;
+        .title {
+            font-size: 20px;
         }
     }
 }
