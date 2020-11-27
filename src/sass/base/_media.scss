@@ -32,6 +32,15 @@
     .feed-form {
         margin: 36px auto 0;
     }
+
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+        &__tab {
+            font-size: 12px;
+        }
+    }
 }
 @media (max-width: 767px) {
     .btn {
@@ -65,6 +74,11 @@
             flex-direction: column;
             align-items: center;
             margin-top: 40px;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 400px;
         }
     }
 }
@@ -116,6 +130,16 @@
         padding: 50px 0;
         .title {
             font-size: 20px;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 300px;
+        }
+    }
+    .catalog {
+        &__tab {
+            font-size: 10px;
         }
     }
 }
